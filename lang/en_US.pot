@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mycred-credly\n"
+"POT-Creation-Date: 2019-09-18 09:49+0200\n"
+"PO-Revision-Date: 2019-09-18 09:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __(;_e;__\n"
+"X-Poedit-SearchPath-0: mycred-credly-addon.php\n"
+"X-Poedit-SearchPath-1: includes/class-mycred-credly-crud-badge.php\n"
+"X-Poedit-SearchPath-2: includes/class-mycred-credly-settings.php\n"
+"X-Poedit-SearchPath-3: includes/class-mycred-credly-badge-builder-sdk.php\n"
+
+#: includes/class-mycred-credly-badge-builder-sdk.php:24
+msgid "Use Credly Badge Builder"
+msgstr ""
+
+#: includes/class-mycred-credly-badge-builder-sdk.php:64
+msgid "Badge created with Credly Badge Builder"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:125
+#: includes/class-mycred-credly-crud-badge.php:158
+#: includes/class-mycred-credly-crud-badge.php:165
+msgid "Error: can't send to credly!"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:153
+msgid "Success: Sent to Credly!"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:175
+msgid ""
+"Would you like to display this badge on social networks and add it to your "
+"lifelong badge collection?"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:176
+msgid "Yes, send to Credly"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:177
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:178
+msgid "Share on Credly!"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:179
+msgid "Error:"
+msgstr ""
+
+#: includes/class-mycred-credly-crud-badge.php:180
+msgid "Error: Timed out"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:56
+msgid "Credly Badge Builder Setup"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:67
+msgid "Upload Badge Image"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:71
+msgid "Credly Badge Builder"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:69
+msgid "To set an image use the metabox to the right. Or, design a badge using "
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:89
+msgid "Credly Badges"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:91
+msgid "Credly Badge Integration"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:95
+msgid "api key"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:101
+msgid "api secret"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:109
+msgid "email"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:116
+msgid "Password"
+msgstr ""
+
+#: includes/class-mycred-credly-settings.php:123
+msgid "Authorize"
+msgstr ""
+
+#: mycred-credly-addon.php:49
+msgid "mycred credly addon requires mycred plugin to be activatd and installed"
+msgstr ""

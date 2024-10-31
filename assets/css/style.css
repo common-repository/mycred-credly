@@ -1,0 +1,129 @@
+#mycred-badge-setup .badge-level > div:first-child, .type-mycred_badge .badge-reqs.column-badge-reqs strong {
+    display:none;
+}
+
+ul.mycred-badge-requirement-list {
+    border: 0;
+}
+
+.mycred-badge-requirement-list li {
+    list-style-type: none;
+}
+
+.post-type-mycred_badge .ui-autocomplete li, #credly_search_results + td label {
+   text-transform: capitalize;
+}
+
+.mycred-credly-share {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.mycred-credly-share .popup-credly-share-text {
+  /*visibility: hidden;*/
+  width: 160px;
+  background-color: #FFF;
+  border: 2px solid #ccc;
+/*  color: #fff;*/
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.mycred-credly-share .popup-credly-share-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+/*.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}*/
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.mycred-share-error{
+    color:red;
+}
+.mycred-share-success{
+    color:green;
+}
+
+#mycred_credly_setting_notice > div {
+    padding: 10px;
+}
+#mycred_credly_setting_notice > div.error {
+    color: red;
+}
+
+#mycred_credly_authorize[disabled] {
+    cursor: wait;
+}
+
+#mycred_credly_connect_badge {
+    margin: 1px 8px 3px 3px;
+}
+
+#mycred-credly-badge-modal-wraper {
+    padding-top: 15px;
+}
+
+#mycred-credly-badge-modal-wraper h2 {
+    margin-left: 3px;
+}
+
+#mycred-credly-badge-modal-wraper table {
+    width: 100%;
+}
+
+#mycred-credly-badge-list {
+    width: 100%;
+    min-width: 160px;
+    max-width: 300px;
+}
+
+#mycred_credly_connect_badge img, #get-mycred-credly_badge img {
+    margin: 5px 0px 0px 5px;
+    float: right;
+    display: none;
+}
+
+#mycred-credly-badge-modal-wraper p {
+    color: red;
+}
+
+#mycred_credly_badge_description {
+    width: 100%;
+}
+
+.mycred-credly-email-msg {
+    color: red;
+}
